@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Slide deck</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link media="all" rel="stylesheet" href="../assets/main.css" type="text/css"/>
+  </head>
+  <body>
+    <textarea id="source">
+      {{ deck_markdown }}
+    </textarea>
+    <script src="http://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create({
+      highlightLanguage: 'bash',
+      highlightStyle: 'monokai'
+      });
+    </script>
+  </body>
+</html>
