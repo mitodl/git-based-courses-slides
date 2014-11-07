@@ -34,7 +34,7 @@ h1, h2, h3 {
 }
 
 .remark-slide-content .remark-slide-number {
-    color: #fff;
+    color: #a31f34;
 }
 
 .remark-slide-content h1 {
@@ -101,6 +101,11 @@ ul, ol {
 
 li {
     padding-top: 7px;
+}
+
+li li {
+    color: #8a8b8c;
+	font-size: 28px;
 }
 
 ul>li {
@@ -186,4 +191,12 @@ ol>li {
 
 .small_code .remark-code{
 	font-size: 14px !important;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
 }

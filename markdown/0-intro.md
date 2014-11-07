@@ -7,12 +7,14 @@ class: title, center, middle
 ### Carson Gee and Peter Pinch
 
 ---
+
 class: big_bullets
 
 # Peter Pinch
 - OCW Ninja
 - MITx Superstar
 - Ask him about ActiMate Arthur
+
 ---
 
 # Carson Gee
@@ -34,7 +36,9 @@ class: big_bullets
 
 ???
 Mention how github/gitlab hooks tie this together
+
 ---
+
 class: big_bullets
 
 # What We'll Cover

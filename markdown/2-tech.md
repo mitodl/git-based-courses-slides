@@ -20,7 +20,7 @@ Quick overview slide, just skip through
 
 .right-column[
 # Git Course Import via Command
-```terminal
+```bash
 sudo su - edxapp -s /bin/bash
 . edxapp_env
 python manage.py edx-platform/lms --settings=aws \
@@ -107,7 +107,7 @@ flag in `FEATURES` dict
 
 .right-column[
 # Git Course Export via Command
-```terminal
+```bash
 sudo su - edxapp -s /bin/bash
 . edxapp_env
 python manage.py edx-platform/cms --settings=aws \
@@ -138,7 +138,6 @@ ENABLE_EXPORT_GIT=True
 ```
 flag in `FEATURES` dict
 - Set `giturl` in course's advanced settings
-
 ![set_giturl](../assets/set_giturl.png)
 ]
 
@@ -197,7 +196,7 @@ Maybe mention branch settings and security
 
 Try before you buy:
 
-```terminal
+```bash
 sudo su - edxapp -s /bin/bash
 pip install gitreload
 gitreload
