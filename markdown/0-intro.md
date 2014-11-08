@@ -10,8 +10,11 @@ class: title, center, middle
 class: big_bullets
 
 # Peter Pinch
-- OCW Ninja
-- MITx Superstar
+- 15+ years of education at scale
+- WGBH web sites on pbs.org
+- PBS Learning Media
+- MIT OpenCourseWare
+- MITx multitool 
 - Ask him about ActiMate Arthur
 ---
 
