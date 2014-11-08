@@ -8,15 +8,13 @@ class: title, center, middle
 
 ---
 
-class: big_bullets
-
 # Peter Pinch
-- 15+ years of education at scale
-- WGBH web sites on pbs.org
-- PBS Learning Media
+
+- education at scale
+- pbs.org, pbslearningmedia.org 
 - MIT OpenCourseWare
 - MITx multitool 
-- Ask him about ActiMate Arthur
+- Ask me about talking aardvarks
 
 ---
 
