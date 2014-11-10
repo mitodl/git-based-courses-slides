@@ -34,13 +34,12 @@ python edx-platform/manage.py lms --settings=aws \
 
 ???
 Talk about what this actually i.e.
+- Defaults to /edx/var/edxapp/course_repos
 - Git clones/pulls
 - Check out of branch is specced
 - Increases logging to debug
 - Runs Studio import command
 - Stores import log to git logs in Dashboard
-
-Defaults to /edx/var/edxapp/course_repos
 ---
 
 .left-column[
