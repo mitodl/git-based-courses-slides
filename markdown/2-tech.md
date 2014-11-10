@@ -23,7 +23,8 @@ Quick overview slide, just skip through
 ```bash
 sudo su - edxapp -s /bin/bash
 . edxapp_env
-python manage.py edx-platform/lms --settings=aws \
+mkdir /edx/var/edxapp/course_repos
+python edx-platform/manage.py lms --settings=aws \
   git_add_course http://github.com/edx/edx-demo-course 
 ```
 ## Options
@@ -39,6 +40,7 @@ Talk about what this actually i.e.
 - Runs Studio import command
 - Stores import log to git logs in Dashboard
 
+Defaults to /edx/var/edxapp/course_repos
 ---
 
 .left-column[
@@ -93,7 +95,8 @@ flag in `FEATURES` dict
 
 ![sysadmin dashboard logs](../assets/gitlog.png)
 ]
-
+???
+Next slide is export, so intro it
 ---
 
 .left-column[
@@ -110,16 +113,19 @@ flag in `FEATURES` dict
 ```bash
 sudo su - edxapp -s /bin/bash
 . edxapp_env
-python manage.py edx-platform/cms --settings=aws \
+mkdir /edx/var/edxapp/export_course_repos
+cd edx-platform
+python manage.py cms --settings=aws \
   git_export edX/DemoX/Demo_Course \
-  git@github.com:edx/edx-demo-course 
+  git@github.com:carsongee/edx-demo-course.git
 ```
 
 ## Options
 - username (for commit authorship)
 - repo_dir (specify location of local repo location)
 ]
-
+???
+Mention our backup
 ---
 
 .left-column[
@@ -156,6 +162,8 @@ flag in `FEATURES` dict
 
 ![export_git](../assets/export_git.png)
 ]
+???
+Moving to workflow automation - intro
 
 ---
 
@@ -240,6 +248,7 @@ Install for realsies with Ansible
 ???
 - gridfs is slow and eats application workers
 - ContentStore slows down import dramatically
+- Only need shared if clustered
 ---
 class: small_code
 
