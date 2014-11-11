@@ -30,6 +30,12 @@
 
 ---
 
+# XML Course Development
+
+![XML Flow](../assets/flow_xml.png)
+
+---
+
 # Studio Course Development
 
 1. author course on studio server

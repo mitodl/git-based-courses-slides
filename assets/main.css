@@ -200,3 +200,8 @@ ol>li {
 .fr {
     float: right;
 }
+
+img {
+	max-width:100%; 
+	height:auto;
+}
