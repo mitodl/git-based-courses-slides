@@ -44,3 +44,9 @@
 4. trigger ➞ updates course on production server
 
 ---
+
+# Studio Course Development
+
+![Studio Flow](../assets/flow_studio.png)
+
+---
