@@ -8,12 +8,13 @@ class: title, center, middle
 
 ---
 
-class: big_bullets
-
 # Peter Pinch
-- OCW Ninja
-- MITx Superstar
-- Ask him about ActiMate Arthur
+
+- education at scale
+- pbs.org, pbslearningmedia.org 
+- MIT OpenCourseWare
+- MITx multitool 
+- Ask me about talking aardvarks
 
 ---
 
