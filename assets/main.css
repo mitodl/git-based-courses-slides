@@ -201,7 +201,12 @@ ol>li {
     float: right;
 }
 
-img {
-	max-width:100%; 
-	height:auto;
+.graph img {
+	max-width: 100%; 
+	height: auto;
+}
+
+.screenshot img {
+	height: 600px;
+	width: auto;
 }

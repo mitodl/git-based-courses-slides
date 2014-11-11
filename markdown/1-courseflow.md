@@ -30,9 +30,27 @@
 
 ---
 
+class: graph 
+
 # XML Course Development
 
 ![XML Flow](../assets/flow_xml.png)
+
+---
+
+class: screenshot center 
+
+## example commit graph
+
+![XML Flow](../assets/example-commit-graph.jpg)
+
+---
+
+class: screenshot center
+
+## example PR with comments
+
+![XML Flow](../assets/example-pr+comments.jpg)
 
 ---
 
@@ -44,6 +62,8 @@
 4. trigger ➞ updates course on production server
 
 ---
+
+class: graph 
 
 # Studio Course Development
 
