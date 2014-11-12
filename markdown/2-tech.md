@@ -205,15 +205,14 @@ Try before you buy:
 
 ```bash
 sudo su - edxapp -s /bin/bash
+. edxapp_env
 pip install gitreload
 gitreload
 ```
-
 Install for realsies with Ansible
 ```yaml
  - hosts: all
    sudo: True
-   gather_facts: True
    vars:
      COMMON_ENABLE_BASIC_AUTH: True
    roles:
@@ -224,6 +223,11 @@ Install for realsies with Ansible
 ```
 ]
 
+???
+
+Port 5000 in trial
+Port 8095/18095 in real
+vagrant will require port forward
 ---
 
 .left-column[
