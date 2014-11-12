@@ -36,8 +36,8 @@
 # Questions?
 
 .fl[
-![doof](../assets/doof.png)
+![qr](../assets/qrcode.png)
 ]
 .fr[
-![qr](../assets/qrcode.png)
+![doof](../assets/doof.png)
 ]
