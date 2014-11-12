@@ -200,3 +200,13 @@ ol>li {
 .fr {
     float: right;
 }
+
+.graph img {
+	max-width: 100%; 
+	height: auto;
+}
+
+.screenshot img {
+	height: 600px;
+	width: auto;
+}
