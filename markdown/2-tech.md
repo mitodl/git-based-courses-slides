@@ -209,7 +209,7 @@ sudo su - edxapp -s /bin/bash
 pip install gitreload
 gitreload
 ```
-Install for realsies with Ansible
+Install for realsies with Ansible:
 ```yaml
  - hosts: all
    sudo: True
