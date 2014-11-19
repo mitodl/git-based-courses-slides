@@ -144,6 +144,15 @@ vagrant will require port forward
 
 ---
 
+# Add the Hook
+
+![github hook](../assets/hook.png)
+
+???
+Switching to ContentStore
+
+---
+
 # Who needs ContentStore?
 
 - Setup shared filesystem for course storage
