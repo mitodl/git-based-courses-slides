@@ -12,9 +12,10 @@ class: title, center, middle
 
 - education at scale
 - pbs.org, pbslearningmedia.org 
+    - Ask me about animatronic aardvarks
 - MIT OpenCourseWare
-- MITx multitool 
-- Ask me about talking aardvarks
+    - 2,240 courses and counting
+- man of many hats at MITx 
 
 ---
 
