@@ -5,7 +5,7 @@ class: title, center, middle
 ![logo](../assets/mitx_logo.png)
 
 ### Carson Gee and Peter Pinch
-
+### cgee@mit.edu  &nbsp;&  pdpinch@mit.edu
 ---
 
 # Peter Pinch
