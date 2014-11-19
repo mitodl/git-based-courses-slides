@@ -1,4 +1,4 @@
-# Course Production Workflow
+# Why do we do it this way?
 
 ## Course teams want to:
 - use familiar tools 
@@ -9,7 +9,7 @@
 
 ---
 
-# Course Production Workflow
+# Why do we do it this way?
 
 ## Admins need to:
 - help course teams, safely 
