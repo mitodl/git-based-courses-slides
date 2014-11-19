@@ -32,12 +32,8 @@
 	- "giturl" setting
 
 ---
-
 # Questions?
-
-.fl[
+.center[
+![github cat](../assets/puppeteer.png)mitodl/git-based-courses-slides
 ![qr](../assets/qrcode.png)
-]
-.fr[
-![doof](../assets/doof.png)
 ]
